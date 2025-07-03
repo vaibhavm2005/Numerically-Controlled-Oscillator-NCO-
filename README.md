@@ -1,1 +1,2 @@
 # Numerically-Controlled-Oscillator-NCO-
+Implemented a Numerically Controlled Oscillator (NCO) using Verilog to digitally generate sine waves with programmable frequencies. The design used a 16-bit phase accumulator and a 256-point sine lookup table (LUT) to produce three distinct waveforms. A Python script was used to generate the LUT data, and the system was verified through simulation on Icarus Verilog and GTKWave. The project demonstrated precise digital frequency control and reinforced concepts of waveform synthesis, phase modulation, and hardware simulation.
